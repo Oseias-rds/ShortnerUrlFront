@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <!-- Link para do site pra pegar o icone de pesquisa -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="display">
+        <img class="icon" src="patinho.png" alt="Patinho pequeno">
+        <input id="Digite" type="text" placeholder="Digite aqui sua URL...">
+         <!-- Botão de busca -->
+         <button type="submit" id="search-btn"><i class="fas fa-search"></i></button>
+        
+        <br><br>
+    </div>
+
+    <!-- Ícone do menu hamburguer -->
+    <div class="menu-icon" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <!-- Menu lateral -->
+    <div id="menu" class="menu">
+        <br>
+        <br>
+        <a href="InfoUrl.html">Informações URL</a>
+        <br>
+        <a href="Algoritmo de Geração de URLs Curtas.pdf">Sobre sistema</a>
+        <br>
+    </div>
+
+    <!-- Rodapé com ícones de redes sociais -->
+    <div class="footer">
+        <!-- Ícones das redes sociais -->
+        <a href="https://www.linkedin.com/in/o-ramos-developer/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="https://outlook.live.com/mail/0/"><i class="fas fa-envelope fa-lg"></i></a>
+        <a href="https://www.instagram.com/oseiinhass/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+    </div>
+
+    <script src="Js.js"></script>
+</body>
+</html>
