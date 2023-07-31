@@ -11,9 +11,10 @@ body {
     height: 100px;
 }
 
-#Digite{
+#long-url{
  width: 400px;
  border-radius: 7px;
+ height: 40px;
 }
 .display{
     display: flex;
@@ -99,9 +100,15 @@ body {
     color: #fff;
     border: none;
     padding: 8px 15px;
-    cursor: pointer;
-    border-radius: 7px;
-    transition: background-color 0.3s ease;
+    border-radius: 100px;
+    margin-top: -3%;
+    position: absolute;
+    left: 61%;
+    top: 33%
+}
+
+.d-none{
+    display: none;
 }
 
 

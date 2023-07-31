@@ -19,11 +19,6 @@ img[src="seta.png"] {
     width: 100px;
     height: 100px;
 }
-
-#Digite{
- width: 400px;
- border-radius: 7px;
-}
 .display{
     display: flex;
     flex-direction: column;
@@ -31,18 +26,25 @@ img[src="seta.png"] {
     justify-content: center;
     height: 50vh;
 }
-#shortnerUrl{
+#shortner-url{
     border-radius: 7px;
     width: 400px;
+    height: 40px;
 }
-/* Estilos do botão de busca */
 
+/* Estilos do botão de busca */
 #search-btn {
     background-color: #007bff;
     color: #fff;
     border: none;
     padding: 8px 15px;
     cursor: pointer;
-    border-radius: 7px;
+    border-radius: 100px;
     transition: background-color 0.3s ease;
+    position: absolute;
+    left: 61%;
+    top: 29%
+}
+.d-none{
+    display: none;
 }
